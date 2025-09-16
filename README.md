@@ -29,29 +29,10 @@ If using GUI:
 
 pip install tk
 
-▶️ Usage:
-import translators as ts  
+⚡ Note
 
-def Translate():
-    translat = ts.translate_text(
-        "Hello, how are you?",
-        translator="google",
-        from_language="en",
-        to_language="fr"
-    )
-    print(translat)  # Bonjour, comment ça va ?
+This project does not use any dataset.
 
-Translate()
+Internet connection is required since it depends on Google Translate.
 
-
-For GUI (with tkinter):
-
-def Translate():
-   translat = ts.translate_text(
-       TextVar.get(),
-       translator="google",
-       from_language=InputLanguage.get()[:2],
-       to_language=TranslatedLanguage.get()[:2]
-   )
-   OutputVar.set(translat)
-
+Accuracy depends on Google’s translation engine.
