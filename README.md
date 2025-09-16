@@ -20,12 +20,6 @@ translators library (pip install translators)
 
 📌 Installation:
 
-Clone the repository:
-
-git clone https://github.com/your-username/language-translator.git
-cd language-translator
-
-
 Install dependencies:
 
 pip install translators
@@ -60,3 +54,4 @@ def Translate():
        to_language=TranslatedLanguage.get()[:2]
    )
    OutputVar.set(translat)
+
