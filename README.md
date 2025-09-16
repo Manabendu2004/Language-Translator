@@ -1,6 +1,6 @@
 A simple Language Translator GUI built in Python. It uses the Google Translator engine via the translators library to translate text between languages.
 
-🚀 Features
+🚀 Features:
 
 Translate text between multiple languages
 
@@ -10,7 +10,7 @@ No dataset required
 
 Simple function-based implementation (Translate())
 
-🛠️ Technologies Used
+🛠️ Technologies Used:
 
 Python 3
 
@@ -18,7 +18,7 @@ translators library (pip install translators)
 
 (Optional) tkinter for GUI
 
-📌 Installation
+📌 Installation:
 
 Clone the repository:
 
@@ -35,7 +35,7 @@ If using GUI:
 
 pip install tk
 
-▶️ Usage
+▶️ Usage:
 import translators as ts  
 
 def Translate():
